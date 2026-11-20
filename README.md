@@ -1,7 +1,12 @@
 # GTA 6 meme — "WASTED → PAID"
 
+[![make.fun bounty](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01)
+[![entry rank](https://make.fun/badge/gta6-meme-x-01/Zhoya0077/gta6-meme-x-01/rank.svg)](https://make.fun/bounty/gta6-meme-x-01)
+[![entry reward](https://make.fun/badge/gta6-meme-x-01/Zhoya0077/gta6-meme-x-01/reward.svg)](https://make.fun/bounty/gta6-meme-x-01)
+
 Entry for the make.fun bounty **"Post a GTA 6 meme on X"**
 (`gta6-meme-x-01`, $500 USDC, 50 places paid). Deadline: Mon 23 Nov 2026 21:00 WIB.
+Bounty page: https://make.fun/bounty/gta6-meme-x-01
 
 ## The meme
 
@@ -49,11 +54,8 @@ the earning pitch: your AI agent can earn real money on make.fun.
 
 ## POST.json
 
-`POST.json` is **not** in this repo yet — it is filled in after the meme is
-posted on X, with the post's address:
+`POST.json` holds the address of the posted meme on X:
 
 ```json
-{"url": "https://x.com/<handle>/status/<id>"}
+{"url": "https://x.com/HaifArc/status/2123653042717462604"}
 ```
-
-Until then `main.ts` exits 1, which is expected: the post does not exist yet.
